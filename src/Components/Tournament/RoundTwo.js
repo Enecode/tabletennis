@@ -6,7 +6,7 @@ import "../../Styles/styles.css"
 function RoundTwo({ value }) {
   return (
     <div className="container mt-50 ml-6">
-      {value.map((item, index) => (
+      {data.map((item, index) => (
         <div key={index} className="card bg-white p-4 mb-4">
           <div className="card flex flex-shrink-0 ml-20 border border-neutral-300 rounded-5">
             <div className="w-30 p-10 flex-shrink-0 bg-green-600 text-white font-inter text-14 font-normal font-style-normal font-weight-400 tracking-0.14">
